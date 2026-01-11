@@ -1,7 +1,14 @@
 [project]
 name = "timestamp"
 version = "0.1.0"
-description = "To mark the progress with AI using 'engineering log'"
-readme = "README.md"
-requires-python = ">=3.14"
-dependencies = []
+description = "AI Engineering Log Control"
+dependencies = [
+    "nicegui",
+]
+requires-python = ">=3.10"
+
+# Remova o [project.scripts] se ele estiver causando erro no sync
+# Ou use a configuração abaixo para ignorar o build:
+
+[tool.uv]
+package = false  # <--- Isso diz ao UV: "Não tente buildar, é só uma pasta de scripts"
