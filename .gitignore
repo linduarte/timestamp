@@ -11,3 +11,5 @@ wheels/
 
 # json history
 dev_history.json
+
+.vscode
