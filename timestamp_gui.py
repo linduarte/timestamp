@@ -53,7 +53,7 @@ def main_page():
                     ui.label('Nova Sessão de Trabalho').classes('text-2xl font-bold mb-4')
                     
                     project_input = ui.input('Projeto / Cliente').classes('w-full')
-                    status_input = ui.input('O que foi feito? (Status)').classes('w-full')
+                    status_input = ui.input('O que vamos fazer? (Status)').classes('w-full')
                     notes_input = ui.textarea('Notas e Detalhes Técnicos').classes('w-full h-40').props('outlined')
 
                     # Função para carregar contexto antigo
