@@ -31,4 +31,4 @@ Este projeto demonstra o poder do NiceGUI em transformar scripts Python em aplic
 ├── static/              # Ativos estáticos (CSS customizado, ícones)
 └── requirements.txt     # Dependências do projeto
 
-Testando o commit com assinatura.
+Testando o commit com assinatura
